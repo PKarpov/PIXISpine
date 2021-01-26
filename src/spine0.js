@@ -79,8 +79,7 @@ function loadSpine(nn) {
     // 'scatter_anticipation'];
 
     var url = './art/spine_new/' + anims[nn] + '/' + anims[nn] + '.json';
-
-    console.log('>>>>>>>>>>>>', url);
+    console.log('>>>>>', url);
     PIXI.loader
         .add(('spin_' + id), url)
         .load(onAssetsLoaded);
@@ -113,7 +112,7 @@ function showAnim(e) {
     spine.state.addAnimation(0, e.currentTarget.text, false, 0);
 }
 
-function openNext(e) {
+function openNext() {
     nn = ++nn < anims.length ? nn : 0;
     loadSpine(nn);
 }
