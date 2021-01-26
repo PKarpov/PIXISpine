@@ -1,0 +1,67 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>PIXI Spine</title>
+</head>
+<script src="lib/pixi.min.js"></script>
+<script src="lib/pixi-spine.js"></script>
+<script src="src/opennew.js"></script>
+<style>
+    .popupConfirm {
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0,0,0,0.7);
+        top: 0;
+        left: 0;
+        display: none;
+    }
+    #popupConfirm:target {
+        display: block;
+    }
+    .popup_body{
+        min-height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        /*padding: 30px;*/
+    }
+    .popup_content{
+        background-color: white;
+        font-family: Arial;
+        color: black;
+        max-width: 800px;
+        padding: 20px;
+        position: relative;
+    }
+    .buttons {
+        display: flex;
+        justify-content: center;
+        /*text-align: center;*/
+    }
+    .buttons>button {
+        width: 100px;
+        margin: 20px;
+        margin-bottom: 0;
+    }
+
+</style>
+<body>
+<a href="#popupConfirm">open</a>
+<div id="popupConfirm" class="popupConfirm">
+    <div class="popup_body">
+        <div class="popup_content">
+            <div class="popup_title">Are you sure that you want to restart the terminal?</div>
+            <div class="buttons">
+                <button type="button" onclick="window.location='#'">Ok</button>
+                <button type="button ">Cansel</button>
+            </div>
+
+        </div>
+    </div>
+</div>
+<!--<input type="file" id="fileInput" click="console.log('!!!!!')"/>-->
+<script src="src/spine0.js"></script>
+</body>
+</html>

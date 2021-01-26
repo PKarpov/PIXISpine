@@ -1,0 +1,433 @@
+
+additional_bw.png
+size: 1784,1296
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+4star
+  rotate: false
+  xy: 1688, 966
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+Bomb_ring
+  rotate: false
+  xy: 1632, 845
+  size: 122, 121
+  orig: 128, 128
+  offset: 4, 3
+  index: -1
+Optical_FX
+  rotate: false
+  xy: 1411, 1116
+  size: 317, 178
+  orig: 320, 178
+  offset: 2, 0
+  index: -1
+Sand/sand__00000
+  rotate: false
+  xy: 1632, 777
+  size: 136, 68
+  orig: 427, 240
+  offset: 112, 69
+  index: -1
+Sand/sand__00001
+  rotate: false
+  xy: 1617, 704
+  size: 159, 73
+  orig: 427, 240
+  offset: 114, 67
+  index: -1
+Sand/sand__00002
+  rotate: false
+  xy: 1587, 468
+  size: 184, 78
+  orig: 427, 240
+  offset: 113, 65
+  index: -1
+Sand/sand__00003
+  rotate: false
+  xy: 1582, 336
+  size: 201, 81
+  orig: 427, 240
+  offset: 112, 64
+  index: -1
+Sand/sand__00004
+  rotate: false
+  xy: 1566, 119
+  size: 210, 86
+  orig: 427, 240
+  offset: 113, 62
+  index: -1
+Sand/sand__00005
+  rotate: false
+  xy: 1566, 205
+  size: 217, 89
+  orig: 427, 240
+  offset: 114, 61
+  index: -1
+Sand/sand__00006
+  rotate: false
+  xy: 984, 11
+  size: 221, 93
+  orig: 427, 240
+  offset: 117, 60
+  index: -1
+Sand/sand__00007
+  rotate: false
+  xy: 1542, 23
+  size: 228, 96
+  orig: 427, 240
+  offset: 116, 58
+  index: -1
+Sand/sand__00008
+  rotate: false
+  xy: 505, 52
+  size: 234, 99
+  orig: 427, 240
+  offset: 117, 57
+  index: -1
+Sand/sand__00009
+  rotate: false
+  xy: 0, 38
+  size: 239, 101
+  orig: 427, 240
+  offset: 117, 57
+  index: -1
+Sand/sand__00010
+  rotate: false
+  xy: 739, 0
+  size: 245, 104
+  orig: 427, 240
+  offset: 116, 56
+  index: -1
+Sand/sand__00011
+  rotate: false
+  xy: 1295, 73
+  size: 247, 107
+  orig: 427, 240
+  offset: 119, 55
+  index: -1
+Sand/sand__00012
+  rotate: false
+  xy: 749, 104
+  size: 253, 109
+  orig: 427, 240
+  offset: 118, 55
+  index: -1
+Sand/sand__00013
+  rotate: false
+  xy: 1040, 104
+  size: 255, 112
+  orig: 427, 240
+  offset: 120, 54
+  index: -1
+Sand/sand__00014
+  rotate: false
+  xy: 1307, 180
+  size: 259, 114
+  orig: 427, 240
+  offset: 119, 54
+  index: -1
+Sand/sand__00015
+  rotate: false
+  xy: 242, 73
+  size: 263, 116
+  orig: 427, 240
+  offset: 119, 54
+  index: -1
+Sand/sand__00016
+  rotate: false
+  xy: 775, 213
+  size: 265, 120
+  orig: 427, 240
+  offset: 120, 53
+  index: -1
+Sand/sand__00017
+  rotate: false
+  xy: 1042, 216
+  size: 265, 121
+  orig: 427, 240
+  offset: 124, 53
+  index: -1
+Sand/sand__00018
+  rotate: false
+  xy: 1312, 294
+  size: 270, 123
+  orig: 427, 240
+  offset: 122, 53
+  index: -1
+Sand/sand__00019
+  rotate: false
+  xy: 1042, 337
+  size: 270, 125
+  orig: 427, 240
+  offset: 124, 53
+  index: -1
+Sand/sand__00020
+  rotate: false
+  xy: 254, 189
+  size: 273, 127
+  orig: 427, 240
+  offset: 124, 53
+  index: -1
+Sand/sand__00021
+  rotate: false
+  xy: 1319, 417
+  size: 268, 129
+  orig: 427, 240
+  offset: 131, 53
+  index: -1
+Sand/sand__00022
+  rotate: false
+  xy: 1350, 546
+  size: 271, 130
+  orig: 427, 240
+  offset: 130, 53
+  index: -1
+Sand/sand__00023
+  rotate: false
+  xy: 254, 316
+  size: 273, 131
+  orig: 427, 240
+  offset: 131, 54
+  index: -1
+Sand/sand__00024
+  rotate: false
+  xy: 791, 470
+  size: 275, 133
+  orig: 427, 240
+  offset: 131, 54
+  index: -1
+Sand/sand__00025
+  rotate: false
+  xy: 1076, 601
+  size: 274, 135
+  orig: 427, 240
+  offset: 131, 53
+  index: -1
+Sand/sand__00026
+  rotate: false
+  xy: 259, 447
+  size: 275, 135
+  orig: 427, 240
+  offset: 131, 55
+  index: -1
+Sand/sand__00027
+  rotate: false
+  xy: 801, 603
+  size: 275, 137
+  orig: 427, 240
+  offset: 131, 54
+  index: -1
+Sand/sand__00028
+  rotate: false
+  xy: 1089, 736
+  size: 276, 138
+  orig: 427, 240
+  offset: 131, 55
+  index: -1
+Sand/sand__00029
+  rotate: false
+  xy: 261, 582
+  size: 277, 139
+  orig: 427, 240
+  offset: 131, 55
+  index: -1
+Sand/sand__00030
+  rotate: false
+  xy: 815, 740
+  size: 274, 141
+  orig: 427, 240
+  offset: 132, 55
+  index: -1
+Sand/sand__00031
+  rotate: false
+  xy: 265, 721
+  size: 276, 142
+  orig: 427, 240
+  offset: 131, 55
+  index: -1
+Sand/sand__00032
+  rotate: false
+  xy: 275, 863
+  size: 275, 143
+  orig: 427, 240
+  offset: 132, 56
+  index: -1
+Sand/sand__00033
+  rotate: false
+  xy: 829, 881
+  size: 276, 143
+  orig: 427, 240
+  offset: 132, 57
+  index: -1
+Sand/sand__00034
+  rotate: false
+  xy: 275, 1006
+  size: 277, 146
+  orig: 427, 240
+  offset: 132, 56
+  index: -1
+Sand/sand__00035
+  rotate: false
+  xy: 552, 1006
+  size: 277, 146
+  orig: 427, 240
+  offset: 132, 57
+  index: -1
+Sand/sand__00036
+  rotate: false
+  xy: 1411, 969
+  size: 277, 147
+  orig: 427, 240
+  offset: 132, 57
+  index: -1
+Sand/sand__00037
+  rotate: false
+  xy: 0, 1004
+  size: 275, 148
+  orig: 427, 240
+  offset: 132, 58
+  index: -1
+Sand/sand__00038
+  rotate: false
+  xy: 0, 856
+  size: 265, 148
+  orig: 427, 240
+  offset: 132, 59
+  index: -1
+Sand/sand__00039
+  rotate: false
+  xy: 550, 858
+  size: 265, 148
+  orig: 427, 240
+  offset: 132, 60
+  index: -1
+Sand/sand__00040
+  rotate: false
+  xy: 1105, 874
+  size: 263, 150
+  orig: 427, 240
+  offset: 132, 59
+  index: -1
+Sand/sand__00041
+  rotate: false
+  xy: 1368, 820
+  size: 264, 149
+  orig: 427, 240
+  offset: 132, 61
+  index: -1
+Sand/sand__00042
+  rotate: false
+  xy: 541, 710
+  size: 260, 148
+  orig: 427, 240
+  offset: 132, 62
+  index: -1
+Sand/sand__00043
+  rotate: false
+  xy: 0, 559
+  size: 259, 148
+  orig: 427, 240
+  offset: 132, 63
+  index: -1
+Sand/sand__00044
+  rotate: false
+  xy: 0, 707
+  size: 261, 149
+  orig: 427, 240
+  offset: 132, 63
+  index: -1
+Sand/sand__00045
+  rotate: false
+  xy: 0, 415
+  size: 254, 144
+  orig: 427, 240
+  offset: 132, 65
+  index: -1
+Sand/sand__00046
+  rotate: false
+  xy: 534, 422
+  size: 253, 143
+  orig: 427, 240
+  offset: 132, 66
+  index: -1
+Sand/sand__00047
+  rotate: false
+  xy: 1365, 676
+  size: 252, 144
+  orig: 427, 240
+  offset: 133, 66
+  index: -1
+Sand/sand__00048
+  rotate: false
+  xy: 538, 565
+  size: 253, 145
+  orig: 427, 240
+  offset: 133, 66
+  index: -1
+Sand/sand__00049
+  rotate: false
+  xy: 0, 275
+  size: 254, 140
+  orig: 427, 240
+  offset: 133, 67
+  index: -1
+Sand/sand__00050
+  rotate: false
+  xy: 1066, 462
+  size: 253, 139
+  orig: 427, 240
+  offset: 134, 67
+  index: -1
+Sand/sand__00051
+  rotate: false
+  xy: 787, 333
+  size: 255, 137
+  orig: 427, 240
+  offset: 133, 68
+  index: -1
+Sand/sand__00052
+  rotate: false
+  xy: 527, 287
+  size: 248, 135
+  orig: 427, 240
+  offset: 141, 68
+  index: -1
+Sand/sand__00053
+  rotate: false
+  xy: 0, 139
+  size: 242, 136
+  orig: 427, 240
+  offset: 147, 68
+  index: -1
+Sand/sand__00054
+  rotate: false
+  xy: 527, 151
+  size: 222, 136
+  orig: 427, 240
+  offset: 168, 69
+  index: -1
+counter_placeholder
+  rotate: false
+  xy: 0, 1152
+  size: 931, 142
+  orig: 931, 142
+  offset: 0, 0
+  index: -1
+particles
+  rotate: false
+  xy: 931, 1024
+  size: 480, 270
+  orig: 480, 270
+  offset: 0, 0
+  index: -1
+star_glow_red
+  rotate: false
+  xy: 1688, 1030
+  size: 86, 86
+  orig: 86, 86
+  offset: 0, 0
+  index: -1

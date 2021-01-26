@@ -1,0 +1,55 @@
+
+add_respin_animation.png
+size: 1955,292
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+fire_1
+  rotate: false
+  xy: 305, 28
+  size: 275, 264
+  orig: 275, 264
+  offset: 0, 0
+  index: -1
+fire_2
+  rotate: false
+  xy: 580, 28
+  size: 275, 264
+  orig: 275, 264
+  offset: 0, 0
+  index: -1
+frame
+  rotate: false
+  xy: 855, 28
+  size: 275, 264
+  orig: 275, 264
+  offset: 0, 0
+  index: -1
+frame_glow
+  rotate: false
+  xy: 1130, 28
+  size: 275, 264
+  orig: 275, 264
+  offset: 0, 0
+  index: -1
+glow
+  rotate: false
+  xy: 0, 0
+  size: 305, 292
+  orig: 305, 292
+  offset: 0, 0
+  index: -1
+glow_1
+  rotate: false
+  xy: 1405, 28
+  size: 275, 264
+  orig: 275, 264
+  offset: 0, 0
+  index: -1
+symbol_2
+  rotate: false
+  xy: 1680, 28
+  size: 275, 264
+  orig: 275, 264
+  offset: 0, 0
+  index: -1
