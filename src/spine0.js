@@ -1,14 +1,14 @@
-const AtlasAttachmentLoader = PIXI.spine.core.AtlasAttachmentLoader;
+var AtlasAttachmentLoader = PIXI.spine.core.AtlasAttachmentLoader;
 AtlasAttachmentLoader.prototype.newRegionAttachment = function (skin, name, path) {
     var region = this.atlas.findRegion(path);
     if (region == null && skin && skin.attachments && skin.attachments.length > 0) {
         console.warn("Region " + path + " not found");
 
-        const newSkin = skin.attachments.filter(function(e) {
+        var newSkin = skin.attachments.filter(function(e) {
             return e
         })[0];
-        const newSkinKey = Object.keys(newSkin)[0];
-        const newAttachment = newSkin[newSkinKey];
+        var newSkinKey = Object.keys(newSkin)[0];
+        var newAttachment = newSkin[newSkinKey];
         name = newAttachment.name;
         path = newAttachment.path;
 
