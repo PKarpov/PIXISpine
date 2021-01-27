@@ -1,5 +1,5 @@
 import { Container, Application, utils } from 'pixi.js';
-import SpineD from "./js/Hero";
+import SpineD from "./js/SpineD";
 
 export default class Main {
 	constructor() {
@@ -9,7 +9,7 @@ export default class Main {
 		Main.click = 'click';
 		Main.observer = new utils.EventEmitter();
 
-		const app = new PIXI.Application(1280, 720, { backgroundColor: 0x1099bb });
+		const app = new PIXI.Application(1280, 720, { backgroundColor: 0x444444 });
 		document.body.appendChild(app.view);
 		app.stage.addChild(new PIXI.Graphics)
 			.lineStyle(1, 0x777777)
@@ -20,7 +20,7 @@ export default class Main {
 
 		document.addEventListener('click', this.clickListener.bind(this));
 		app.ticker.add(this.update, this);
-		this.main = app.stage.addChild(new Container());
+		this.main = app.stage.addChild(new SpineD());
 	}
 
 	clickListener(e) {

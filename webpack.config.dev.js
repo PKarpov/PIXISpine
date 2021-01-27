@@ -10,8 +10,8 @@ module.exports = {
 	devtool: 'inline-source-map',
 	plugins: [
 		new CopyWebpackPlugin([{
-			from: 'src/assets',
-			to: 'assets'
+			from: 'src/art',
+			to: 'art'
 		}]),
 		new HTMLWebpackPlugin({
 			template: 'src/index.html',
