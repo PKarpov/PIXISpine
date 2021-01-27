@@ -1,28 +1,442 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b01869b6-775a-421e-b63d-f55efbc5e373" name="Default Changelist" comment="" />
+    <list default="true" id="92e9604a-d294-4625-92dc-73a9c2a293ca" name="Default Changelist" comment="remove files">
+      <change afterPath="$PROJECT_DIR$/src/Main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/art/exports/add_respin_animation.atlas" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/art/exports/add_respin_animation.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/art/exports/add_respin_animation.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/art/exports/additional_bw.atlas" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/art/exports/additional_bw.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/art/exports/additional_bw.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/art/exports/anticipation.atlas" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/art/exports/anticipation.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/art/exports/anticipation.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/art/exports/bonus_animation.atlas" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/art/exports/bonus_animation.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/art/exports/bonus_animation.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/art/exports/bonus_explosion.atlas" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/art/exports/bonus_explosion.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/art/exports/bonus_explosion.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/art/exports/fire_transition.atlas" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/art/exports/fire_transition.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/art/exports/fire_transition.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/art/exports/game_popups.atlas" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/art/exports/game_popups.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/art/exports/game_popups.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/art/exports/game_popups2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/art/exports/mask_bonus_fire.atlas" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/art/exports/mask_bonus_fire.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/art/exports/mask_bonus_fire.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/art/exports/respins_frame_explosion.atlas" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/art/exports/respins_frame_explosion.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/art/exports/respins_frame_explosion.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/art/exports/scatter_anticipation.atlas" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/art/exports/scatter_anticipation.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/art/exports/scatter_anticipation.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/art/spine/dragon.atlas" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/art/spine/dragon.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/art/spine/dragon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/art/spine/dragon/add_respin_animation.atlas" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/art/spine/dragon/add_respin_animation.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/art/spine/dragon/add_respin_animation.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/art/spine/dragon/additional_bw.atlas" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/art/spine/dragon/additional_bw.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/art/spine/dragon/additional_bw.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/art/spine/dragon/additional_bw2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/art/spine/dragon/anticipation.atlas" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/art/spine/dragon/anticipation.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/art/spine/dragon/anticipation.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/art/spine/dragon/bonus_animation.atlas" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/art/spine/dragon/bonus_animation.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/art/spine/dragon/bonus_animation.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/art/spine/dragon/bonus_explosion.atlas" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/art/spine/dragon/bonus_explosion.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/art/spine/dragon/bonus_explosion.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/art/spine/dragon/fire_transition.atlas" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/art/spine/dragon/fire_transition.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/art/spine/dragon/fire_transition.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/art/spine/dragon/game_popups.atlas" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/art/spine/dragon/game_popups.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/art/spine/dragon/game_popups.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/art/spine/dragon/game_popups2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/art/spine/dragon/mask_bonus_fire.atlas" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/art/spine/dragon/mask_bonus_fire.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/art/spine/dragon/mask_bonus_fire.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/art/spine/dragon/p.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/art/spine/dragon/respins_frame_explosion.atlas" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/art/spine/dragon/respins_frame_explosion.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/art/spine/dragon/respins_frame_explosion.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/art/spine/dragon/scatter_anticipation.atlas" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/art/spine/dragon/scatter_anticipation.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/art/spine/dragon/scatter_anticipation.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/art/spine/dragon2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/art/spine/egypt/additional_bw.atlas" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/art/spine/egypt/additional_bw.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/art/spine/egypt/additional_bw.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/art/spine/egypt/additional_bw2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/art/spine/egypt/anticipation.atlas" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/art/spine/egypt/anticipation.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/art/spine/egypt/antisipation.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/art/spine/egypt/antisipation2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/art/spine/egypt/fire_transition.atlas" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/art/spine/egypt/fire_transition.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/art/spine/egypt/fire_transition.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/art/spine/egypt/game_popups.atlas" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/art/spine/egypt/game_popups.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/art/spine/egypt/game_popups.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/art/spine/egypt/game_popups2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/art/spine/egypt/game_popups3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/art/spine/egypt/mask_bonus_fire.atlas" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/art/spine/egypt/mask_bonus_fire.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/art/spine/egypt/mask_bonus_fire.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/art/spine/egypt/p.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/art/spine/egypt/particles.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/art/spine/egypt/pearl_explosion.atlas" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/art/spine/egypt/pearl_explosion.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/art/spine/egypt/pearl_explosion.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/art/spine/egypt/scatter_anticipation.atlas" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/art/spine/egypt/scatter_anticipation.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/art/spine/egypt/scatter_anticipation.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/art/spine/goblins.atlas" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/art/spine/goblins.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/art/spine/goblins.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/art/spine/iP4_BGtile.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/art/spine/iP4_ground.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/art/spine/pixie.atlas" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/art/spine/pixie.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/art/spine/pixie.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/art/spine/spin_3.7.94/add_respin_animation.atlas" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/art/spine/spin_3.7.94/add_respin_animation.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/art/spine/spin_3.7.94/add_respin_animation.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/art/spine/spin_3.7.94/additional_bw.atlas" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/art/spine/spin_3.7.94/additional_bw.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/art/spine/spin_3.7.94/additional_bw.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/art/spine/spin_3.7.94/additional_bw2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/art/spine/spin_3.7.94/anticipation.atlas" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/art/spine/spin_3.7.94/anticipation.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/art/spine/spin_3.7.94/anticipation.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/art/spine/spin_3.7.94/bonus_animation.atlas" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/art/spine/spin_3.7.94/bonus_animation.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/art/spine/spin_3.7.94/bonus_animation.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/art/spine/spin_3.7.94/bonus_explosion.atlas" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/art/spine/spin_3.7.94/bonus_explosion.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/art/spine/spin_3.7.94/bonus_explosion.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/art/spine/spin_3.7.94/fire_transition.atlas" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/art/spine/spin_3.7.94/fire_transition.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/art/spine/spin_3.7.94/fire_transition.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/art/spine/spin_3.7.94/game_popups.atlas" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/art/spine/spin_3.7.94/game_popups.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/art/spine/spin_3.7.94/game_popups.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/art/spine/spin_3.7.94/game_popups2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/art/spine/spin_3.7.94/mask_bonus_fire.atlas" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/art/spine/spin_3.7.94/mask_bonus_fire.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/art/spine/spin_3.7.94/mask_bonus_fire.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/art/spine/spin_3.7.94/respins_frame_explosion.atlas" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/art/spine/spin_3.7.94/respins_frame_explosion.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/art/spine/spin_3.7.94/respins_frame_explosion.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/art/spine/spin_3.7.94/scatter_anticipation.atlas" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/art/spine/spin_3.7.94/scatter_anticipation.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/art/spine/spin_3.7.94/scatter_anticipation.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/art/spine/spineboy.atlas" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/art/spine/spineboy.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/art/spine/spineboy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/art/spine/tt/additional_bw.atlas" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/art/spine/tt/additional_bw.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/art/spine/tt/additional_bw.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/art/spine/tt/additional_bw2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/art/spine/tt1/antisipation.atlas" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/art/spine/tt1/antisipation.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/art/spine/tt1/antisipation.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/art/spine/tt1/antisipation2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/art/spine/tt2/fire_transition.atlas" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/art/spine/tt2/fire_transition.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/art/spine/tt2/fire_transition.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/art/spine/tt2/particles.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/art/spine/tt3/game_popups.atlas" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/art/spine/tt3/game_popups.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/art/spine/tt3/game_popups.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/art/spine/tt3/game_popups2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/art/spine/tt3/game_popups3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/art/spine/tt4/mask_bonus_fire.atlas" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/art/spine/tt4/mask_bonus_fire.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/art/spine/tt4/mask_bonus_fire.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/art/spine/tt5/pearl_explosion.atlas" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/art/spine/tt5/pearl_explosion.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/art/spine/tt5/pearl_explosion.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/art/spine/tt6/scatter_anticipation.atlas" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/art/spine/tt6/scatter_anticipation.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/art/spine/tt6/scatter_anticipation.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/art/spine_new/_additional_bw/additional_bw.atlas" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/art/spine_new/_additional_bw/additional_bw.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/art/spine_new/_additional_bw/additional_bw.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/art/spine_new/add_respin_animation/add_respin_animation.atlas" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/art/spine_new/add_respin_animation/add_respin_animation.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/art/spine_new/add_respin_animation/add_respin_animation.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/art/spine_new/additional_bw/additional_bw.atlas" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/art/spine_new/additional_bw/additional_bw.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/art/spine_new/additional_bw/additional_bw.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/art/spine_new/anticipation/anticipation.atlas" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/art/spine_new/anticipation/anticipation.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/art/spine_new/anticipation/anticipation.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/art/spine_new/bonus_animation/bonus_animation.atlas" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/art/spine_new/bonus_animation/bonus_animation.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/art/spine_new/bonus_animation/bonus_animation.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/art/spine_new/bonus_explosion/bonus_explosion.atlas" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/art/spine_new/bonus_explosion/bonus_explosion.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/art/spine_new/bonus_explosion/bonus_explosion.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/art/spine_new/fire_transition/fire_transition.atlas" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/art/spine_new/fire_transition/fire_transition.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/art/spine_new/fire_transition/fire_transition.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/art/spine_new/game_popups/game_popups.atlas" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/art/spine_new/game_popups/game_popups.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/art/spine_new/game_popups/game_popups.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/art/spine_new/game_popups/game_popups2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/art/spine_new/mask_bonus_fire/mask_bonus_fire.atlas" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/art/spine_new/mask_bonus_fire/mask_bonus_fire.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/art/spine_new/mask_bonus_fire/mask_bonus_fire.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/art/spine_new/p.p" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/art/spine_new/respins_frame_explosion/respins_frame_explosion.atlas" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/art/spine_new/respins_frame_explosion/respins_frame_explosion.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/art/spine_new/respins_frame_explosion/respins_frame_explosion.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/art/spine_new/scatter_anticipation/scatter_anticipation.atlas" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/art/spine_new/scatter_anticipation/scatter_anticipation.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/art/spine_new/scatter_anticipation/scatter_anticipation.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/pixi-spine.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/pixi-spine.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/pixi-spine.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/pixi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/old/pixi-spine.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/old/pixi.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/old/pixi.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/old/pixi.min.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/art/exports/add_respin_animation.atlas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/art/exports/add_respin_animation.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/art/exports/add_respin_animation.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/art/exports/additional_bw.atlas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/art/exports/additional_bw.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/art/exports/additional_bw.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/art/exports/anticipation.atlas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/art/exports/anticipation.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/art/exports/anticipation.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/art/exports/bonus_animation.atlas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/art/exports/bonus_animation.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/art/exports/bonus_animation.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/art/exports/bonus_explosion.atlas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/art/exports/bonus_explosion.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/art/exports/bonus_explosion.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/art/exports/fire_transition.atlas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/art/exports/fire_transition.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/art/exports/fire_transition.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/art/exports/game_popups.atlas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/art/exports/game_popups.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/art/exports/game_popups.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/art/exports/game_popups2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/art/exports/mask_bonus_fire.atlas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/art/exports/mask_bonus_fire.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/art/exports/mask_bonus_fire.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/art/exports/respins_frame_explosion.atlas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/art/exports/respins_frame_explosion.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/art/exports/respins_frame_explosion.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/art/exports/scatter_anticipation.atlas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/art/exports/scatter_anticipation.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/art/exports/scatter_anticipation.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/art/spine/dragon.atlas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/art/spine/dragon.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/art/spine/dragon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/art/spine/dragon/add_respin_animation.atlas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/art/spine/dragon/add_respin_animation.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/art/spine/dragon/add_respin_animation.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/art/spine/dragon/additional_bw.atlas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/art/spine/dragon/additional_bw.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/art/spine/dragon/additional_bw.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/art/spine/dragon/additional_bw2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/art/spine/dragon/anticipation.atlas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/art/spine/dragon/anticipation.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/art/spine/dragon/anticipation.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/art/spine/dragon/bonus_animation.atlas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/art/spine/dragon/bonus_animation.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/art/spine/dragon/bonus_animation.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/art/spine/dragon/bonus_explosion.atlas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/art/spine/dragon/bonus_explosion.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/art/spine/dragon/bonus_explosion.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/art/spine/dragon/fire_transition.atlas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/art/spine/dragon/fire_transition.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/art/spine/dragon/fire_transition.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/art/spine/dragon/game_popups.atlas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/art/spine/dragon/game_popups.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/art/spine/dragon/game_popups.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/art/spine/dragon/game_popups2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/art/spine/dragon/mask_bonus_fire.atlas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/art/spine/dragon/mask_bonus_fire.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/art/spine/dragon/mask_bonus_fire.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/art/spine/dragon/p.p" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/art/spine/dragon/respins_frame_explosion.atlas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/art/spine/dragon/respins_frame_explosion.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/art/spine/dragon/respins_frame_explosion.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/art/spine/dragon/scatter_anticipation.atlas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/art/spine/dragon/scatter_anticipation.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/art/spine/dragon/scatter_anticipation.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/art/spine/dragon2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/art/spine/egypt/additional_bw.atlas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/art/spine/egypt/additional_bw.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/art/spine/egypt/additional_bw.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/art/spine/egypt/additional_bw2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/art/spine/egypt/anticipation.atlas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/art/spine/egypt/anticipation.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/art/spine/egypt/antisipation.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/art/spine/egypt/antisipation2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/art/spine/egypt/fire_transition.atlas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/art/spine/egypt/fire_transition.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/art/spine/egypt/fire_transition.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/art/spine/egypt/game_popups.atlas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/art/spine/egypt/game_popups.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/art/spine/egypt/game_popups.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/art/spine/egypt/game_popups2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/art/spine/egypt/game_popups3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/art/spine/egypt/mask_bonus_fire.atlas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/art/spine/egypt/mask_bonus_fire.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/art/spine/egypt/mask_bonus_fire.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/art/spine/egypt/p.p" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/art/spine/egypt/particles.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/art/spine/egypt/pearl_explosion.atlas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/art/spine/egypt/pearl_explosion.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/art/spine/egypt/pearl_explosion.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/art/spine/egypt/scatter_anticipation.atlas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/art/spine/egypt/scatter_anticipation.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/art/spine/egypt/scatter_anticipation.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/art/spine/goblins.atlas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/art/spine/goblins.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/art/spine/goblins.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/art/spine/iP4_BGtile.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/art/spine/iP4_ground.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/art/spine/pixie.atlas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/art/spine/pixie.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/art/spine/pixie.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/art/spine/spin_3.7.94/add_respin_animation.atlas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/art/spine/spin_3.7.94/add_respin_animation.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/art/spine/spin_3.7.94/add_respin_animation.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/art/spine/spin_3.7.94/additional_bw.atlas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/art/spine/spin_3.7.94/additional_bw.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/art/spine/spin_3.7.94/additional_bw.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/art/spine/spin_3.7.94/additional_bw2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/art/spine/spin_3.7.94/anticipation.atlas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/art/spine/spin_3.7.94/anticipation.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/art/spine/spin_3.7.94/anticipation.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/art/spine/spin_3.7.94/bonus_animation.atlas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/art/spine/spin_3.7.94/bonus_animation.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/art/spine/spin_3.7.94/bonus_animation.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/art/spine/spin_3.7.94/bonus_explosion.atlas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/art/spine/spin_3.7.94/bonus_explosion.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/art/spine/spin_3.7.94/bonus_explosion.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/art/spine/spin_3.7.94/fire_transition.atlas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/art/spine/spin_3.7.94/fire_transition.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/art/spine/spin_3.7.94/fire_transition.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/art/spine/spin_3.7.94/game_popups.atlas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/art/spine/spin_3.7.94/game_popups.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/art/spine/spin_3.7.94/game_popups.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/art/spine/spin_3.7.94/game_popups2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/art/spine/spin_3.7.94/mask_bonus_fire.atlas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/art/spine/spin_3.7.94/mask_bonus_fire.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/art/spine/spin_3.7.94/mask_bonus_fire.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/art/spine/spin_3.7.94/respins_frame_explosion.atlas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/art/spine/spin_3.7.94/respins_frame_explosion.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/art/spine/spin_3.7.94/respins_frame_explosion.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/art/spine/spin_3.7.94/scatter_anticipation.atlas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/art/spine/spin_3.7.94/scatter_anticipation.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/art/spine/spin_3.7.94/scatter_anticipation.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/art/spine/spineboy.atlas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/art/spine/spineboy.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/art/spine/spineboy.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/art/spine/tt/additional_bw.atlas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/art/spine/tt/additional_bw.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/art/spine/tt/additional_bw.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/art/spine/tt/additional_bw2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/art/spine/tt1/antisipation.atlas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/art/spine/tt1/antisipation.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/art/spine/tt1/antisipation.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/art/spine/tt1/antisipation2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/art/spine/tt2/fire_transition.atlas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/art/spine/tt2/fire_transition.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/art/spine/tt2/fire_transition.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/art/spine/tt2/particles.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/art/spine/tt3/game_popups.atlas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/art/spine/tt3/game_popups.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/art/spine/tt3/game_popups.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/art/spine/tt3/game_popups2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/art/spine/tt3/game_popups3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/art/spine/tt4/mask_bonus_fire.atlas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/art/spine/tt4/mask_bonus_fire.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/art/spine/tt4/mask_bonus_fire.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/art/spine/tt5/pearl_explosion.atlas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/art/spine/tt5/pearl_explosion.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/art/spine/tt5/pearl_explosion.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/art/spine/tt6/scatter_anticipation.atlas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/art/spine/tt6/scatter_anticipation.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/art/spine/tt6/scatter_anticipation.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/art/spine_new/_additional_bw/additional_bw.atlas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/art/spine_new/_additional_bw/additional_bw.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/art/spine_new/_additional_bw/additional_bw.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/art/spine_new/add_respin_animation/add_respin_animation.atlas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/art/spine_new/add_respin_animation/add_respin_animation.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/art/spine_new/add_respin_animation/add_respin_animation.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/art/spine_new/additional_bw/additional_bw.atlas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/art/spine_new/additional_bw/additional_bw.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/art/spine_new/additional_bw/additional_bw.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/art/spine_new/anticipation/anticipation.atlas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/art/spine_new/anticipation/anticipation.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/art/spine_new/anticipation/anticipation.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/art/spine_new/bonus_animation/bonus_animation.atlas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/art/spine_new/bonus_animation/bonus_animation.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/art/spine_new/bonus_animation/bonus_animation.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/art/spine_new/bonus_explosion/bonus_explosion.atlas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/art/spine_new/bonus_explosion/bonus_explosion.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/art/spine_new/bonus_explosion/bonus_explosion.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/art/spine_new/fire_transition/fire_transition.atlas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/art/spine_new/fire_transition/fire_transition.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/art/spine_new/fire_transition/fire_transition.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/art/spine_new/game_popups/game_popups.atlas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/art/spine_new/game_popups/game_popups.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/art/spine_new/game_popups/game_popups.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/art/spine_new/game_popups/game_popups2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/art/spine_new/mask_bonus_fire/mask_bonus_fire.atlas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/art/spine_new/mask_bonus_fire/mask_bonus_fire.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/art/spine_new/mask_bonus_fire/mask_bonus_fire.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/art/spine_new/p.p" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/art/spine_new/respins_frame_explosion/respins_frame_explosion.atlas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/art/spine_new/respins_frame_explosion/respins_frame_explosion.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/art/spine_new/respins_frame_explosion/respins_frame_explosion.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/art/spine_new/scatter_anticipation/scatter_anticipation.atlas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/art/spine_new/scatter_anticipation/scatter_anticipation.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/art/spine_new/scatter_anticipation/scatter_anticipation.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/pixi-spine.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/pixi-spine.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/pixi-spine.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/pixi.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/old/pixi-spine.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/old/pixi.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/old/pixi.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/old/pixi.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="JavaScript File" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="1n9F196dmV7AaD9fX7ht9dow8ci" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectId" id="1ne7BULDFlPEEDqlgyvAYerjU1R" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
-    <option name="useFileNestingRules" value="false" />
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
@@ -32,29 +446,41 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
+  <component name="RunManager">
+    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.start" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="b01869b6-775a-421e-b63d-f55efbc5e373" name="Default Changelist" comment="" />
-      <created>1610794181452</created>
+      <changelist id="92e9604a-d294-4625-92dc-73a9c2a293ca" name="Default Changelist" comment="" />
+      <created>1611738567735</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1610794181452</updated>
-      <workItem from="1610794182526" duration="235000" />
-      <workItem from="1610794474613" duration="13306000" />
-      <workItem from="1610961768135" duration="589000" />
-      <workItem from="1610962588252" duration="546000" />
-      <workItem from="1610963183103" duration="15393000" />
-      <workItem from="1611061849646" duration="151000" />
-      <workItem from="1611062011484" duration="620000" />
-      <workItem from="1611063366178" duration="11000" />
-      <workItem from="1611065450350" duration="13599000" />
-      <workItem from="1611153848614" duration="240000" />
-      <workItem from="1611222420905" duration="992000" />
-      <workItem from="1611308007354" duration="383000" />
-      <workItem from="1611562928606" duration="1268000" />
-      <workItem from="1611677618278" duration="1315000" />
+      <updated>1611738567735</updated>
+      <workItem from="1611738568999" duration="1735000" />
     </task>
+    <task id="LOCAL-00001" summary="add and remove files">
+      <created>1611739096968</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1611739096968</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -70,5 +496,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add and remove files" />
+    <MESSAGE value="remove files" />
+    <option name="LAST_COMMIT_MESSAGE" value="remove files" />
   </component>
 </project>
