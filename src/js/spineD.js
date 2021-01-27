@@ -1,29 +1,45 @@
-const AtlasAttachmentLoader = PIXI.spine.core.AtlasAttachmentLoader;
-AtlasAttachmentLoader.prototype.newRegionAttachment = function (skin, name, path) {
-    var region = this.atlas.findRegion(path);
-    if (region == null && skin && skin.attachments && skin.attachments.length > 0) {
-        console.warn("Region " + path + " not found");
+import {Texture, AnimatedSprite, Loader, utils, Container} from './lib/pixi';
+import {spine} from './lib/pixi-spine';
 
-        const newSkin = skin.attachments.filter(function(e) {
-            return e
-        })[0];
-        const newSkinKey = Object.keys(newSkin)[0];
-        const newAttachment = newSkin[newSkinKey];
-        name = newAttachment.name;
-        path = newAttachment.path;
+export default class SpineD extends PIXI.Container{
+    constructor() {
+        super();
+    }
 
-        region = this.atlas.findRegion(name);
+    init() {
+        const AtlasAttachmentLoader = PIXI.spine.core.AtlasAttachmentLoader;
+        AtlasAttachmentLoader.prototype.newRegionAttachment = function (skin, name, path) {
+            var region = this.atlas.findRegion(path);
+            if (region == null && skin && skin.attachments && skin.attachments.length > 0) {
+                console.warn("Region " + path + " not found");
+
+                const newSkin = skin.attachments.filter(function(e) {
+                    return e
+                })[0];
+                const newSkinKey = Object.keys(newSkin)[0];
+                const newAttachment = newSkin[newSkinKey];
+                name = newAttachment.name;
+                path = newAttachment.path;
+
+                region = this.atlas.findRegion(name);
+
+            }
+
+            if (region == null) {
+            debugger;
+                throw new Error("Region not found in atlas: " + path + " (region attachment: " + name + ")");
+            }
+            var attachment = new PIXI.spine.core.RegionAttachment(name);
+            attachment.region = region;
+            return attachment;
+        }
+
 
     }
 
-    if (region == null) {
-        debugger;
-        throw new Error("Region not found in atlas: " + path + " (region attachment: " + name + ")");
-    }
-    var attachment = new PIXI.spine.core.RegionAttachment(name);
-    attachment.region = region;
-    return attachment;
-};
+}
+
+;
 var app = new PIXI.Application(1280, 720, { backgroundColor: 0x333333 });
 document.body.appendChild(app.view);
 app.stage.addChild(new PIXI.Graphics)
@@ -68,7 +84,7 @@ function loadSpine(nn) {
         spineBox0.removeChildAt(0);
     }
     PIXI.loader.destroy();
-    aName.text = anims[nn] + '.json'; 
+    aName.text = anims[nn] + '.json';
     var url = './art/spine_new/' + anims[nn] + '/' + anims[nn] + '.json';
     console.log('>>>>>', url);
     PIXI.loader
@@ -93,7 +109,7 @@ var style = {
     fill: '#ffffff'
 };
 
-var aName = app.stage.addChild(getButton('', 10, 5, null, 14)); 
+var aName = app.stage.addChild(getButton('', 10, 5, null, 14));
 app.stage.addChild(getButton('next', 1200, 5, openNext));
 
 
