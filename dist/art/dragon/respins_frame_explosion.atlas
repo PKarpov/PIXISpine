@@ -1,0 +1,83 @@
+
+respins_frame_explosion.png
+size: 1842,377
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+el_frame
+  rotate: false
+  xy: 487, 29
+  size: 445, 65
+  orig: 445, 65
+  offset: 0, 0
+  index: -1
+frame
+  rotate: false
+  xy: 1191, 223
+  size: 535, 154
+  orig: 535, 154
+  offset: 0, 0
+  index: -1
+frame_glow
+  rotate: false
+  xy: 1377, 45
+  size: 439, 58
+  orig: 439, 58
+  offset: 0, 0
+  index: -1
+glow
+  rotate: false
+  xy: 1726, 318
+  size: 98, 59
+  orig: 98, 59
+  offset: 0, 0
+  index: -1
+inner_glow
+  rotate: false
+  xy: 1377, 0
+  size: 243, 45
+  orig: 243, 45
+  offset: 0, 0
+  index: -1
+inner_glow_2
+  rotate: false
+  xy: 932, 29
+  size: 445, 65
+  orig: 445, 65
+  offset: 0, 0
+  index: -1
+light
+  rotate: false
+  xy: 1191, 103
+  size: 651, 120
+  orig: 651, 120
+  offset: 0, 0
+  index: -1
+light_2
+  rotate: false
+  xy: 0, 4
+  size: 487, 90
+  orig: 487, 90
+  offset: 0, 0
+  index: -1
+light_4
+  rotate: false
+  xy: 0, 94
+  size: 397, 283
+  orig: 397, 283
+  offset: 0, 0
+  index: -1
+ligth_3
+  rotate: false
+  xy: 397, 94
+  size: 397, 283
+  orig: 397, 283
+  offset: 0, 0
+  index: -1
+ligth_5
+  rotate: false
+  xy: 794, 94
+  size: 397, 283
+  orig: 397, 283
+  offset: 0, 0
+  index: -1

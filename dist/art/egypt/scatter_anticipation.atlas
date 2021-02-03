@@ -1,0 +1,111 @@
+
+scatter_anticipation.png
+size: 1100,340
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+coins_1
+  rotate: false
+  xy: 1033, 43
+  size: 59, 36
+  orig: 59, 36
+  offset: 0, 0
+  index: -1
+coins_2
+  rotate: false
+  xy: 880, 45
+  size: 83, 55
+  orig: 83, 55
+  offset: 0, 0
+  index: -1
+coins_3
+  rotate: false
+  xy: 963, 49
+  size: 70, 51
+  orig: 70, 51
+  offset: 0, 0
+  index: -1
+coins_4
+  rotate: false
+  xy: 1028, 116
+  size: 52, 38
+  orig: 52, 38
+  offset: 0, 0
+  index: -1
+coins_5
+  rotate: false
+  xy: 1066, 315
+  size: 34, 25
+  orig: 34, 25
+  offset: 0, 0
+  index: -1
+coins_6
+  rotate: false
+  xy: 1033, 79
+  size: 47, 37
+  orig: 47, 37
+  offset: 0, 0
+  index: -1
+coins_7
+  rotate: false
+  xy: 880, 4
+  size: 58, 41
+  orig: 58, 41
+  offset: 0, 0
+  index: -1
+coins_8
+  rotate: false
+  xy: 978, 17
+  size: 51, 32
+  orig: 51, 32
+  offset: 0, 0
+  index: -1
+coins_9
+  rotate: false
+  xy: 938, 7
+  size: 40, 38
+  orig: 40, 38
+  offset: 0, 0
+  index: -1
+coins_glow
+  rotate: false
+  xy: 880, 100
+  size: 148, 54
+  orig: 148, 54
+  offset: 0, 0
+  index: -1
+jug
+  rotate: false
+  xy: 0, 0
+  size: 220, 340
+  orig: 220, 340
+  offset: 0, 0
+  index: -1
+jug_back
+  rotate: false
+  xy: 220, 0
+  size: 220, 340
+  orig: 220, 340
+  offset: 0, 0
+  index: -1
+jug_saturated
+  rotate: false
+  xy: 440, 0
+  size: 220, 340
+  orig: 220, 340
+  offset: 0, 0
+  index: -1
+light
+  rotate: false
+  xy: 660, 0
+  size: 220, 340
+  orig: 220, 340
+  offset: 0, 0
+  index: -1
+salut
+  rotate: false
+  xy: 880, 154
+  size: 186, 186
+  orig: 186, 186
+  offset: 0, 0
+  index: -1

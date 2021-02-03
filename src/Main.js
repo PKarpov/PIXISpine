@@ -1,5 +1,17 @@
 import { Container, Application, utils } from 'pixi.js';
-import SpineD from "./js/SpineD";
+import SpineD from "./js/spineD";
+
+window.copyToClipboard = function(info) {
+	if (!window.ghost) {
+		window.ghost = document.createElement('textarea');
+		window.ghost.style.position = 'absolute';
+		window.ghost.style.left = '-9999px';
+		document.body.appendChild(window.ghost);
+	}
+	window.ghost.value = info;
+	window.ghost.select();
+	document.execCommand('copy');
+};
 
 export default class Main {
 	constructor() {

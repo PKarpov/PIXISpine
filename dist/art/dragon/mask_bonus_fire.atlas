@@ -1,0 +1,20 @@
+
+mask_bonus_fire.png
+size: 211,970
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+central_highlight_1
+  rotate: false
+  xy: 0, 328
+  size: 211, 642
+  orig: 211, 642
+  offset: 0, 0
+  index: -1
+central_particles_1
+  rotate: false
+  xy: 0, 0
+  size: 113, 328
+  orig: 113, 328
+  offset: 0, 0
+  index: -1

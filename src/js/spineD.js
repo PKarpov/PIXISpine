@@ -32,7 +32,7 @@ export default class SpineD extends PIXI.Container{
         }
         this.spineBox0 = this.addChild(new PIXI.Container());
         this.id = 0;
-        this.nn = 0;
+        // this.nn = 0;
         this.anims = ['additional_bw',//Region not found in atlas: bw (region attachment: bw)
             'game_popups',//Region not found in atlas: bonus_win (region attachment: bonus_win)
             'bonus_animation',//!!!
@@ -51,24 +51,44 @@ export default class SpineD extends PIXI.Container{
             fill: '#ffffff'
         };
 
-        this.aName = this.addChild(this.getButton('', 10, 5, null, 14));
-        this.addChild(this.getButton('<previous', 1100, 5, ()=>{
-            this.nn = --this.nn < 0 ? this.anims.length-1: this.nn;
-            this.loadSpine(this.nn);
-        },20));
-        this.addChild(this.getButton('next>', 1200, 5, ()=>{
-            this.nn = ++this.nn < this.anims.length ? this.nn : 0;
-            this.loadSpine(this.nn);
-        },20));
+        this.aName = this.addChild(this.getButton('', 10, 5, null));
+        // this.addChild(this.getButton('<previous', 1100, 5, ()=>{
+        //     this.nn = --this.nn < 0 ? this.anims.length-1: this.nn;
+        //     this.loadSpine(this.nn);
+        // },20));
+        // this.addChild(this.getButton('next>', 1200, 5, ()=>{
+        //     this.nn = ++this.nn < this.anims.length ? this.nn : 0;
+        //     this.loadSpine(this.nn);
+        // },20));
+        for (let i = 0; i < this.anims.length; i++) {
+            this.addChild(this.getButton(this.anims[i], 1000, 20 + i * 25,this.loadSpine.bind(this)));
+
+        }
+
+        function isPrime(element, index, array) {
+            var start = 2;
+            while (start <= Math.sqrt(element)) {
+                if (element % start++ < 1) {
+                    return false;
+                }
+            }
+            return element > 1;
+        }
+
+        console.log([4, 6, 7, 5, 8, 12].find(isPrime)); // undefined, не найдено
+        console.log([4, 5, 8, 12].find(isPrime)); // 5
+
     }
 
-    loadSpine(nn) {
-        while (this.spineBox0.children.length) {
-            this.spineBox0.removeChildAt(0);
-        }
-        PIXI.loader.destroy();
-        this.aName.text = this.anims[nn] + '.json';
-        var url = './art/dragon/' + this.anims[nn] + '.json';
+    loadSpine(e) {
+        if (this.oldSpine) this.oldSpine.style.fill = '#ffffff';
+        this.oldSpine = e.currentTarget;
+        this.oldSpine.style.fill = '#ff6f00';
+        let spine = e.currentTarget.text;
+        window.copyToClipboard(spine + '.json');
+        // PIXI.loader.destroy();
+        this.aName.text = spine + '.json';
+        var url = './art/dragon/' + spine + '.json';
         console.log('>>>>>', url);
         PIXI.loader
             .add(('spin_' + this.id), url)
@@ -79,21 +99,31 @@ export default class SpineD extends PIXI.Container{
         if (this.oldAnim) this.oldAnim.style.fill = '#ffffff';
         this.oldAnim = e.currentTarget;
         this.oldAnim.style.fill = '#ff6f00';
+        console.log('width =', Math.round(this.instance.width), 'height =', Math.round(this.instance.height));
         this.instance.state.addAnimation(0, e.currentTarget.text, false, 0);
     }
 
+    setSkin(e) {
+        if (this.oldSkin) this.oldSkin.style.fill = '#ffffff';
+        this.oldSkin = e.currentTarget;
+        this.oldSkin.style.fill = '#ff6f00';
+        this.instance.skeleton.setSkinByName(e.currentTarget.text);
+    }
+
     onAssetsLoaded(loader, res) {
+        while (this.spineBox0.children.length) {
+            this.spineBox0.removeChildAt(0);
+        }
+
         var data0 = res[('spin_' + this.id++)];
         console.log(data0);
+        console.log(data0.spineData.skins);
 
         try {
-            // console.log(res);
+            console.log(res);
             // console.log(dataR);
             // console.log('spineData =', dataR.spineData || 'undefined');
             // console.log('data =', dataR.data || 'undefined');
-
-
-
             this.instance = new PIXI.spine.Spine(data0.spineData);
 
             // this.instance = Spine.fromFile("spines/additional_bw/additional_bw.json");
@@ -106,22 +136,39 @@ export default class SpineD extends PIXI.Container{
             return;
         }
         this.spineBox0.addChild(this.instance);
+        console.log('width =', Math.round(this.instance.width), 'height =', Math.round(this.instance.height));
         this.oldAnim = null;
+        this.oldSkin = null;
 
         let y = 0;
+        this.spineBox0.addChild(this.getButton('Animations', 20, 50 + y++ * 25,null));
+        let bta;
         for (var animationsKey in data0.data.animations) {
-            this.spineBox0.addChild(this.getButton(animationsKey, 20, 50 + y++ * 25, this.showAnim.bind(this)));
+            bta = this.spineBox0.addChild(this.getButton(animationsKey, 20, 50 + y++ * 25, this.showAnim.bind(this)));
         }
-        // app.start();
+        if (data0.spineData.skins.length > 1) {
+            // this.instance.skeleton.setSkinByName(this.instance.spineData.skins[2].name);
+            this.spineBox0.addChild(this.getButton('Skins', 20, 300 + y++ * 25,null));
+            let bts;
+            for (let skin = 0; skin < data0.spineData.skins.length; skin++) {
+                bts = this.spineBox0.addChild(this.getButton(this.instance.spineData.skins[skin].name, 20, 300 + y++ * 25, this.setSkin.bind(this)));
+            }
+            this.setSkin({currentTarget: bts});
+        }
+        this.showAnim({currentTarget: bta});
     }
 
-    getButton(txt, x, y, cb, size) {
+    getButton(txt, x, y, cb) {
         var bt = new PIXI.Text(txt, this.style);
-        if (size) bt.style.fontSize = size;
         bt.position.set(x, y);
-        bt.interactive = true;
-        bt.buttonMode = true;
-        bt.on('pointerdown', cb);
+        if (cb) {
+            bt.interactive = true;
+            bt.buttonMode = true;
+            bt.on('pointerdown', cb);
+        } else {
+            bt.style.fill = '#ff4800';
+            bt.style.fontSize = 16;
+        }
         return bt;
     }
 
