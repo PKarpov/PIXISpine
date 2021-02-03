@@ -95,10 +95,11 @@ export default class SpineD extends PIXI.Container{
             .load(this.onAssetsLoaded.bind(this));
     }
 
-    showAnim(e) {
+    startAnimation(e) {
         if (this.oldAnim) this.oldAnim.style.fill = '#ffffff';
         this.oldAnim = e.currentTarget;
         this.oldAnim.style.fill = '#ff6f00';
+        window.copyToClipboard(e.currentTarget.text);
         console.log('width =', Math.round(this.instance.width), 'height =', Math.round(this.instance.height));
         this.instance.state.addAnimation(0, e.currentTarget.text, false, 0);
     }
@@ -107,6 +108,7 @@ export default class SpineD extends PIXI.Container{
         if (this.oldSkin) this.oldSkin.style.fill = '#ffffff';
         this.oldSkin = e.currentTarget;
         this.oldSkin.style.fill = '#ff6f00';
+        window.copyToClipboard(e.currentTarget.text);
         this.instance.skeleton.setSkinByName(e.currentTarget.text);
     }
 
@@ -144,7 +146,7 @@ export default class SpineD extends PIXI.Container{
         this.spineBox0.addChild(this.getButton('Animations', 20, 50 + y++ * 25,null));
         let bta;
         for (var animationsKey in data0.data.animations) {
-            bta = this.spineBox0.addChild(this.getButton(animationsKey, 20, 50 + y++ * 25, this.showAnim.bind(this)));
+            bta = this.spineBox0.addChild(this.getButton(animationsKey, 20, 50 + y++ * 25, this.startAnimation.bind(this)));
         }
         if (data0.spineData.skins.length > 1) {
             // this.instance.skeleton.setSkinByName(this.instance.spineData.skins[2].name);
@@ -155,7 +157,7 @@ export default class SpineD extends PIXI.Container{
             }
             this.setSkin({currentTarget: bts});
         }
-        this.showAnim({currentTarget: bta});
+        this.startAnimation({currentTarget: bta});
     }
 
     getButton(txt, x, y, cb) {
