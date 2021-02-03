@@ -85,7 +85,6 @@ export default class SpineD extends PIXI.Container{
         this.oldSpine = e.currentTarget;
         this.oldSpine.style.fill = '#ff6f00';
         let spine = e.currentTarget.text;
-        window.copyToClipboard(spine + '.json');
         // PIXI.loader.destroy();
         this.aName.text = spine + '.json';
         var url = './art/dragon/' + spine + '.json';
@@ -158,6 +157,8 @@ export default class SpineD extends PIXI.Container{
             this.setSkin({currentTarget: bts});
         }
         this.startAnimation({currentTarget: bta});
+        window.copyToClipboard(this.aName.text);
+
     }
 
     getButton(txt, x, y, cb) {
