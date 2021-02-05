@@ -99,8 +99,13 @@ export default class SpineD extends PIXI.Container{
         this.oldAnim = e.currentTarget;
         this.oldAnim.style.fill = '#ff6f00';
         window.copyToClipboard(e.currentTarget.text);
-        console.log('width =', Math.round(this.instance.width), 'height =', Math.round(this.instance.height));
         this.instance.state.addAnimation(0, e.currentTarget.text, false, 0);
+        const time = this.instance.spineData.findAnimation(e.currentTarget.text).duration.toFixed(2);
+        console.log('width =', Math.round(this.instance.width), 'height =', Math.round(this.instance.height), 'time =', time);
+
+        // this.time = this.instance.animations[e.currentTarget.text];
+        // this._spine.setAnimation(this.animationName);
+
     }
 
     setSkin(e) {
@@ -137,7 +142,6 @@ export default class SpineD extends PIXI.Container{
             return;
         }
         this.spineBox0.addChild(this.instance);
-        console.log('width =', Math.round(this.instance.width), 'height =', Math.round(this.instance.height));
         this.oldAnim = null;
         this.oldSkin = null;
 
